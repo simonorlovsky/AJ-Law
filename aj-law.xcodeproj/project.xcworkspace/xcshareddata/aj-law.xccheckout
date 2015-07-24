@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>07E10D36-3FF4-4EB4-A8CC-B9E48634CC0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7BC31E8DD79DB3C81949DB675C15828F90E650DA</key>
+		<string>github.com:simonorlovsky/AJ-Law.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>aj-law.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7BC31E8DD79DB3C81949DB675C15828F90E650DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:simonorlovsky/AJ-Law.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7BC31E8DD79DB3C81949DB675C15828F90E650DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7BC31E8DD79DB3C81949DB675C15828F90E650DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aj-law</string>
+		</dict>
+	</array>
+</dict>
+</plist>

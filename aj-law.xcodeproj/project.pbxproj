@@ -27,6 +27,7 @@
 		94E9AB521B61D89D00FACE9D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E9AB511B61D89D00FACE9D /* libsqlite3.dylib */; };
 		94E9AB541B61D8AA00FACE9D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E9AB531B61D8AA00FACE9D /* Accounts.framework */; };
 		94E9AB561B61D8B100FACE9D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E9AB551B61D8B100FACE9D /* Social.framework */; };
+		94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB571B61E70600FACE9D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		94E9AB511B61D89D00FACE9D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		94E9AB531B61D8AA00FACE9D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		94E9AB551B61D8B100FACE9D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		94E9AB571B61E70600FACE9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				94E9AADE1B61945400FACE9D /* Images.xcassets */,
 				94E9AAE01B61945400FACE9D /* LaunchScreen.xib */,
 				94E9AAD51B61945400FACE9D /* Supporting Files */,
+				94E9AB571B61E70600FACE9D /* LoginViewController.swift */,
 			);
 			path = "aj-law";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */,
 				94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */,
 				94E9AAF81B6194A000FACE9D /* ChecklistViewController.swift in Sources */,
 			);
