@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class ChecklistViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
@@ -15,6 +16,11 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let testObject = PFObject(className: "TestObject")
+        testObject["foo"] = "bar"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            println("Object has been saved.")
+        }
 
         // Do any additional setup after loading the view.
     }
