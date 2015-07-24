@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import Parse
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet var emailTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +25,24 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func loginButtonPressed(sender: AnyObject) {
+        PFUser.logInWithUsernameInBackground(emailTextField.text, password:passwordTextField.text) {
+            (user: PFUser?, error: NSError?) -> Void in
+            if user != nil {
+                // Do stuff after successful login.
+                self.performSegueWithIdentifier("Login", sender: self)
 
+                
+            } else {
+                // The login failed. Check error to see why.
+            }
+        }
+    }
+
+//    @IBAction func forgotPasswordPressed(sender: AnyObject) {
+//        PFUser.requestPasswordResetForEmailInBackground("email@example.com")
+//    }
+    
     /*
     // MARK: - Navigation
 

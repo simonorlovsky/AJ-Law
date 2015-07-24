@@ -28,6 +28,7 @@
 		94E9AB541B61D8AA00FACE9D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E9AB531B61D8AA00FACE9D /* Accounts.framework */; };
 		94E9AB561B61D8B100FACE9D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E9AB551B61D8B100FACE9D /* Social.framework */; };
 		94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB571B61E70600FACE9D /* LoginViewController.swift */; };
+		94E9AB5A1B62B20700FACE9D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB591B62B20700FACE9D /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		94E9AB531B61D8AA00FACE9D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		94E9AB551B61D8B100FACE9D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		94E9AB571B61E70600FACE9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		94E9AB591B62B20700FACE9D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,8 @@
 		94E9AAC91B61945400FACE9D = {
 			isa = PBXGroup;
 			children = (
-				94E9AB3A1B61D7F300FACE9D /* Frameworks */,
 				94E9AAD41B61945400FACE9D /* aj-law */,
+				94E9AB3A1B61D7F300FACE9D /* Frameworks */,
 				94E9AAEA1B61945400FACE9D /* aj-lawTests */,
 				94E9AAD31B61945400FACE9D /* Products */,
 			);
@@ -124,11 +126,12 @@
 			children = (
 				94E9AAD71B61945400FACE9D /* AppDelegate.swift */,
 				94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */,
+				94E9AB571B61E70600FACE9D /* LoginViewController.swift */,
+				94E9AB591B62B20700FACE9D /* RegisterViewController.swift */,
 				94E9AADB1B61945400FACE9D /* Main.storyboard */,
 				94E9AADE1B61945400FACE9D /* Images.xcassets */,
 				94E9AAE01B61945400FACE9D /* LaunchScreen.xib */,
 				94E9AAD51B61945400FACE9D /* Supporting Files */,
-				94E9AB571B61E70600FACE9D /* LoginViewController.swift */,
 			);
 			path = "aj-law";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */,
 				94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */,
 				94E9AAF81B6194A000FACE9D /* ChecklistViewController.swift in Sources */,
+				94E9AB5A1B62B20700FACE9D /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
