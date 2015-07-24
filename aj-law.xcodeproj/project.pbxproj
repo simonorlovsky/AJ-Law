@@ -29,6 +29,9 @@
 		94E9AB561B61D8B100FACE9D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E9AB551B61D8B100FACE9D /* Social.framework */; };
 		94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB571B61E70600FACE9D /* LoginViewController.swift */; };
 		94E9AB5A1B62B20700FACE9D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB591B62B20700FACE9D /* RegisterViewController.swift */; };
+		94E9AB5E1B62D84A00FACE9D /* DetailChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB5D1B62D84A00FACE9D /* DetailChecklistViewController.swift */; };
+		94E9AB611B62EEBA00FACE9D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB601B62EEBA00FACE9D /* UserViewController.swift */; };
+		94E9AB641B62EFE900FACE9D /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB631B62EFE900FACE9D /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		94E9AB551B61D8B100FACE9D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		94E9AB571B61E70600FACE9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		94E9AB591B62B20700FACE9D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		94E9AB5D1B62D84A00FACE9D /* DetailChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailChecklistViewController.swift; sourceTree = "<group>"; };
+		94E9AB601B62EEBA00FACE9D /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		94E9AB631B62EFE900FACE9D /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +130,11 @@
 		94E9AAD41B61945400FACE9D /* aj-law */ = {
 			isa = PBXGroup;
 			children = (
+				94E9AB621B62EFDA00FACE9D /* Notes */,
+				94E9AB5F1B62EEAB00FACE9D /* User */,
+				94E9AB5C1B62D82100FACE9D /* Document Management */,
+				94E9AB5B1B62D80C00FACE9D /* Login/Register */,
 				94E9AAD71B61945400FACE9D /* AppDelegate.swift */,
-				94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */,
-				94E9AB571B61E70600FACE9D /* LoginViewController.swift */,
-				94E9AB591B62B20700FACE9D /* RegisterViewController.swift */,
 				94E9AADB1B61945400FACE9D /* Main.storyboard */,
 				94E9AADE1B61945400FACE9D /* Images.xcassets */,
 				94E9AAE01B61945400FACE9D /* LaunchScreen.xib */,
@@ -180,6 +187,40 @@
 				94E9AB3B1B61D7FD00FACE9D /* Bolts.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94E9AB5B1B62D80C00FACE9D /* Login/Register */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AB571B61E70600FACE9D /* LoginViewController.swift */,
+				94E9AB591B62B20700FACE9D /* RegisterViewController.swift */,
+			);
+			name = Login/Register;
+			sourceTree = "<group>";
+		};
+		94E9AB5C1B62D82100FACE9D /* Document Management */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */,
+				94E9AB5D1B62D84A00FACE9D /* DetailChecklistViewController.swift */,
+			);
+			name = "Document Management";
+			sourceTree = "<group>";
+		};
+		94E9AB5F1B62EEAB00FACE9D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AB601B62EEBA00FACE9D /* UserViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		94E9AB621B62EFDA00FACE9D /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AB631B62EFE900FACE9D /* NotesViewController.swift */,
+			);
+			name = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */,
+				94E9AB611B62EEBA00FACE9D /* UserViewController.swift in Sources */,
+				94E9AB5E1B62D84A00FACE9D /* DetailChecklistViewController.swift in Sources */,
+				94E9AB641B62EFE900FACE9D /* NotesViewController.swift in Sources */,
 				94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */,
 				94E9AAF81B6194A000FACE9D /* ChecklistViewController.swift in Sources */,
 				94E9AB5A1B62B20700FACE9D /* RegisterViewController.swift in Sources */,

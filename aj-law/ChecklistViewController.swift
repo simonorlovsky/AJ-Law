@@ -14,12 +14,15 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
     @IBOutlet var tableView: UITableView!
      var items: [String] = ["Employment Handbook", "Offer Letter"]
     
+    @IBOutlet var titleNavigationItem: UINavigationItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         var currentUser = PFUser.currentUser()
         if currentUser != nil {
             // Do stuff with the user
-            println(currentUser!.email!)
+            let title = currentUser!.objectForKey("firstName") as! String + "'s Documents"
+            titleNavigationItem.title = title
         } else {
             // Show the signup or login screen
         }
@@ -56,11 +59,5 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func logoutButtonPressed(sender: AnyObject) {
-        PFUser.logOut()
-        var currentUser = PFUser.currentUser() // this will now be nil
-        self.performSegueWithIdentifier("LogoutDocuments", sender: self)
-        
-    }
     
 }
