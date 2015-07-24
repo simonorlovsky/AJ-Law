@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AAD71B61945400FACE9D /* AppDelegate.swift */; };
+		94E9AADD1B61945400FACE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E9AADB1B61945400FACE9D /* Main.storyboard */; };
+		94E9AADF1B61945400FACE9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E9AADE1B61945400FACE9D /* Images.xcassets */; };
+		94E9AAE21B61945400FACE9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94E9AAE01B61945400FACE9D /* LaunchScreen.xib */; };
+		94E9AAEE1B61945400FACE9D /* aj_lawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AAED1B61945400FACE9D /* aj_lawTests.swift */; };
+		94E9AAF81B6194A000FACE9D /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94E9AAE81B61945400FACE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E9AACA1B61945400FACE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E9AAD11B61945400FACE9D;
+			remoteInfo = "aj-law";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94E9AAD21B61945400FACE9D /* aj-law.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aj-law.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E9AAD61B61945400FACE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E9AAD71B61945400FACE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94E9AADC1B61945400FACE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94E9AADE1B61945400FACE9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94E9AAE11B61945400FACE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94E9AAE71B61945400FACE9D /* aj-lawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aj-lawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E9AAEC1B61945400FACE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E9AAED1B61945400FACE9D /* aj_lawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aj_lawTests.swift; sourceTree = "<group>"; };
+		94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E9AACF1B61945400FACE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E9AAE41B61945400FACE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94E9AAC91B61945400FACE9D = {
+			isa = PBXGroup;
+			children = (
+				94E9AAD41B61945400FACE9D /* aj-law */,
+				94E9AAEA1B61945400FACE9D /* aj-lawTests */,
+				94E9AAD31B61945400FACE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94E9AAD31B61945400FACE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AAD21B61945400FACE9D /* aj-law.app */,
+				94E9AAE71B61945400FACE9D /* aj-lawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E9AAD41B61945400FACE9D /* aj-law */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AAD71B61945400FACE9D /* AppDelegate.swift */,
+				94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */,
+				94E9AADB1B61945400FACE9D /* Main.storyboard */,
+				94E9AADE1B61945400FACE9D /* Images.xcassets */,
+				94E9AAE01B61945400FACE9D /* LaunchScreen.xib */,
+				94E9AAD51B61945400FACE9D /* Supporting Files */,
+			);
+			path = "aj-law";
+			sourceTree = "<group>";
+		};
+		94E9AAD51B61945400FACE9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AAD61B61945400FACE9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94E9AAEA1B61945400FACE9D /* aj-lawTests */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AAED1B61945400FACE9D /* aj_lawTests.swift */,
+				94E9AAEB1B61945400FACE9D /* Supporting Files */,
+			);
+			path = "aj-lawTests";
+			sourceTree = "<group>";
+		};
+		94E9AAEB1B61945400FACE9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E9AAEC1B61945400FACE9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94E9AAD11B61945400FACE9D /* aj-law */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E9AAF11B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-law" */;
+			buildPhases = (
+				94E9AACE1B61945400FACE9D /* Sources */,
+				94E9AACF1B61945400FACE9D /* Frameworks */,
+				94E9AAD01B61945400FACE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aj-law";
+			productName = "aj-law";
+			productReference = 94E9AAD21B61945400FACE9D /* aj-law.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E9AAE61B61945400FACE9D /* aj-lawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E9AAF41B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-lawTests" */;
+			buildPhases = (
+				94E9AAE31B61945400FACE9D /* Sources */,
+				94E9AAE41B61945400FACE9D /* Frameworks */,
+				94E9AAE51B61945400FACE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E9AAE91B61945400FACE9D /* PBXTargetDependency */,
+			);
+			name = "aj-lawTests";
+			productName = "aj-lawTests";
+			productReference = 94E9AAE71B61945400FACE9D /* aj-lawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E9AACA1B61945400FACE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = simonorlovsky;
+				TargetAttributes = {
+					94E9AAD11B61945400FACE9D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					94E9AAE61B61945400FACE9D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 94E9AAD11B61945400FACE9D;
+					};
+				};
+			};
+			buildConfigurationList = 94E9AACD1B61945400FACE9D /* Build configuration list for PBXProject "aj-law" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E9AAC91B61945400FACE9D;
+			productRefGroup = 94E9AAD31B61945400FACE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E9AAD11B61945400FACE9D /* aj-law */,
+				94E9AAE61B61945400FACE9D /* aj-lawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E9AAD01B61945400FACE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E9AADD1B61945400FACE9D /* Main.storyboard in Resources */,
+				94E9AAE21B61945400FACE9D /* LaunchScreen.xib in Resources */,
+				94E9AADF1B61945400FACE9D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E9AAE51B61945400FACE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E9AACE1B61945400FACE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */,
+				94E9AAF81B6194A000FACE9D /* ChecklistViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E9AAE31B61945400FACE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E9AAEE1B61945400FACE9D /* aj_lawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94E9AAE91B61945400FACE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E9AAD11B61945400FACE9D /* aj-law */;
+			targetProxy = 94E9AAE81B61945400FACE9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94E9AADB1B61945400FACE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E9AADC1B61945400FACE9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94E9AAE01B61945400FACE9D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E9AAE11B61945400FACE9D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94E9AAEF1B61945400FACE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94E9AAF01B61945400FACE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E9AAF21B61945400FACE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "aj-law/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94E9AAF31B61945400FACE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "aj-law/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94E9AAF51B61945400FACE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aj-lawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aj-law.app/aj-law";
+			};
+			name = Debug;
+		};
+		94E9AAF61B61945400FACE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aj-lawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aj-law.app/aj-law";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E9AACD1B61945400FACE9D /* Build configuration list for PBXProject "aj-law" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E9AAEF1B61945400FACE9D /* Debug */,
+				94E9AAF01B61945400FACE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E9AAF11B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-law" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E9AAF21B61945400FACE9D /* Debug */,
+				94E9AAF31B61945400FACE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94E9AAF41B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-lawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E9AAF51B61945400FACE9D /* Debug */,
+				94E9AAF61B61945400FACE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94E9AACA1B61945400FACE9D /* Project object */;
+}
