@@ -12,7 +12,7 @@ import Parse
 class ChecklistViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView: UITableView!
-     var items: [String] = ["Employment Handbook", "Offer Letter"]
+     var items: [AnyObject] = []
     
     @IBOutlet var titleNavigationItem: UINavigationItem!
     
@@ -20,9 +20,32 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
         super.viewDidLoad()
         var currentUser = PFUser.currentUser()
         if currentUser != nil {
-            // Do stuff with the user
+            // Setting the title
             let title = currentUser!.objectForKey("firstName") as! String + "'s Documents"
             titleNavigationItem.title = title
+            
+            //Loading documents of the current user
+            var query = PFQuery(className:"Document")
+            query.whereKey("emailAddress", equalTo:currentUser!.email!)
+            query.findObjectsInBackgroundWithBlock {
+                (objects: [AnyObject]?, error: NSError?) -> Void in
+                
+                if error == nil {
+                    // The find succeeded.
+                    println("Successfully retrieved \(objects!.count) scores.")
+                    // Do something with the found objects
+                    if let objects = objects as? [PFObject] {
+                        for object in objects {
+                            println(object.objectId)
+                        }
+                    }
+                    self.items = objects!
+                    self.tableView.reloadData()
+                } else {
+                    // Log details of the failure
+                    println("Error: \(error!) \(error!.userInfo!)")
+                }
+            }
         } else {
             // Show the signup or login screen
         }
@@ -35,18 +58,20 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        println(self.items.count)
         return self.items.count;
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
-        cell.textLabel?.text = self.items[indexPath.row]
+        cell.textLabel?.text = self.items[indexPath.row].objectForKey("name") as? String
         
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("You selected cell #\(indexPath.row)!")
+        self.performSegueWithIdentifier("Detail", sender: self)
     }
     
 

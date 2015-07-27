@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import Parse
 
 class UserViewController: UIViewController {
 
+    @IBOutlet var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        var currentUser = PFUser.currentUser()
+        if currentUser != nil {
+            // Do stuff with the user
+            let title = (currentUser!.objectForKey("firstName") as! String) + " " + (currentUser!.objectForKey("lastName") as! String)
+            nameLabel.text = title
+        } else {
+            // Show the signup or login screen
+        }
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +31,11 @@ class UserViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func logoutButtonPressed(sender: AnyObject) {
+        PFUser.logOut()
+        var currentUser = PFUser.currentUser()
+    }
+    
     /*
     // MARK: - Navigation
 

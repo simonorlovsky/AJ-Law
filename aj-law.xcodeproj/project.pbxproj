@@ -32,6 +32,7 @@
 		94E9AB5E1B62D84A00FACE9D /* DetailChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB5D1B62D84A00FACE9D /* DetailChecklistViewController.swift */; };
 		94E9AB611B62EEBA00FACE9D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB601B62EEBA00FACE9D /* UserViewController.swift */; };
 		94E9AB641B62EFE900FACE9D /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB631B62EFE900FACE9D /* NotesViewController.swift */; };
+		94E9AB661B66C6DA00FACE9D /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AB651B66C6DA00FACE9D /* NewDocumentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		94E9AB5D1B62D84A00FACE9D /* DetailChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailChecklistViewController.swift; sourceTree = "<group>"; };
 		94E9AB601B62EEBA00FACE9D /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		94E9AB631B62EFE900FACE9D /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		94E9AB651B66C6DA00FACE9D /* NewDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDocumentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 			children = (
 				94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */,
 				94E9AB5D1B62D84A00FACE9D /* DetailChecklistViewController.swift */,
+				94E9AB651B66C6DA00FACE9D /* NewDocumentViewController.swift */,
 			);
 			name = "Document Management";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			files = (
 				94E9AB581B61E70600FACE9D /* LoginViewController.swift in Sources */,
 				94E9AB611B62EEBA00FACE9D /* UserViewController.swift in Sources */,
+				94E9AB661B66C6DA00FACE9D /* NewDocumentViewController.swift in Sources */,
 				94E9AB5E1B62D84A00FACE9D /* DetailChecklistViewController.swift in Sources */,
 				94E9AB641B62EFE900FACE9D /* NotesViewController.swift in Sources */,
 				94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */,
