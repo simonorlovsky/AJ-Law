@@ -7,11 +7,23 @@
 //
 
 import UIKit
+import Parse
 
 class DetailChecklistViewController: UIViewController {
+    
+    var document = PFObject(className: "Document")
 
+    @IBOutlet var documentLocationLabel: UILabel!
+    @IBOutlet var documentNameNavigationItem: UINavigationItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        println(self.document.objectId)
+        documentNameNavigationItem.title = document.objectForKey("name") as? String
+        documentLocationLabel.text = document.objectForKey("location") as? String
+        println(document.objectForKey("name") as? String
+)
+
 
         // Do any additional setup after loading the view.
     }

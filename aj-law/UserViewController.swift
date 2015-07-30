@@ -11,7 +11,7 @@ import Parse
 
 class UserViewController: UIViewController {
 
-    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var nameNavigationItem: UINavigationItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class UserViewController: UIViewController {
         if currentUser != nil {
             // Do stuff with the user
             let title = (currentUser!.objectForKey("firstName") as! String) + " " + (currentUser!.objectForKey("lastName") as! String)
-            nameLabel.text = title
+            nameNavigationItem.title = title
         } else {
             // Show the signup or login screen
         }

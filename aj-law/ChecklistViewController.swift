@@ -11,9 +11,10 @@ import Parse
 
 class ChecklistViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
+    var currentDocument = PFObject(className: "Document")
+    var items: [AnyObject] = []
+
     @IBOutlet var tableView: UITableView!
-     var items: [AnyObject] = []
-    
     @IBOutlet var titleNavigationItem: UINavigationItem!
     
     override func viewDidLoad() {
@@ -58,7 +59,6 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        println(self.items.count)
         return self.items.count;
     }
     
@@ -71,7 +71,12 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("You selected cell #\(indexPath.row)!")
+        self.currentDocument = items[indexPath.row] as! PFObject
+        println("THE CURRENT ITEM IS")
+        println(self.currentDocument.objectForKey("name") as? String)
+
         self.performSegueWithIdentifier("Detail", sender: self)
+        
     }
     
 
@@ -80,9 +85,22 @@ class ChecklistViewController: UIViewController,UITableViewDelegate, UITableView
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+         Get the new view controller using segue.destinationViewController.
+         Pass the selected object to the new view controller.
     }
     */
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "Detail" {
+            if let destinationVC = segue.destinationViewController as? DetailChecklistViewController{
+                // Transferring all selected buildings to the DetailComsumptionViewController so that it can
+                // produce a report comparing buildings.
+                destinationVC.document = self.currentDocument
+                println("THIS IS A TEST")
+            }
+
+            
+        }
+    }
     
 }
