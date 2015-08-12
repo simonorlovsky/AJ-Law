@@ -29,11 +29,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AJ Employment Law" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I80-DV-ryp">
-                                <rect key="frame" x="221" y="61" width="158" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JobRights" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I80-DV-ryp">
+                                <rect key="frame" x="261" y="61" width="78" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="158" id="Kmp-pC-SMD"/>
-                                    <constraint firstAttribute="height" constant="21" id="za0-Nk-HPw"/>
+                                    <constraint firstAttribute="height" constant="21" id="5X0-EJ-ioc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -70,16 +69,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gwG-P4-q2J" firstAttribute="centerX" secondItem="kpZ-yX-ugM" secondAttribute="centerX" id="4Qc-7g-a93"/>
-                            <constraint firstItem="Hoy-uJ-O5M" firstAttribute="top" secondItem="I80-DV-ryp" secondAttribute="bottom" constant="8" symbolic="YES" id="4Rq-iN-fJ2"/>
                             <constraint firstItem="kpZ-yX-ugM" firstAttribute="top" secondItem="lBe-Ad-qls" secondAttribute="bottom" id="BNr-Tj-RqE"/>
-                            <constraint firstItem="Hoy-uJ-O5M" firstAttribute="centerX" secondItem="I80-DV-ryp" secondAttribute="centerX" id="BaA-RJ-dsw"/>
+                            <constraint firstItem="I80-DV-ryp" firstAttribute="top" secondItem="ThZ-me-xcO" secondAttribute="bottom" constant="41" id="PdJ-jQ-rGW"/>
                             <constraint firstItem="kpZ-yX-ugM" firstAttribute="centerX" secondItem="lBe-Ad-qls" secondAttribute="centerX" id="U6C-GN-USr"/>
                             <constraint firstItem="ZUZ-HU-v7J" firstAttribute="top" secondItem="Hoy-uJ-O5M" secondAttribute="bottom" constant="8" symbolic="YES" id="VDl-ug-sO5"/>
                             <constraint firstItem="ZUZ-HU-v7J" firstAttribute="leading" secondItem="Hoy-uJ-O5M" secondAttribute="leading" id="XUw-9z-VgX"/>
-                            <constraint firstItem="I80-DV-ryp" firstAttribute="top" secondItem="ThZ-me-xcO" secondAttribute="bottom" constant="41" id="bjT-XL-eP2"/>
-                            <constraint firstItem="I80-DV-ryp" firstAttribute="centerX" secondItem="Jpo-FG-r03" secondAttribute="centerX" id="gQe-0z-rEE"/>
+                            <constraint firstItem="I80-DV-ryp" firstAttribute="centerX" secondItem="Hoy-uJ-O5M" secondAttribute="centerX" id="fhX-P6-jUh"/>
+                            <constraint firstItem="Hoy-uJ-O5M" firstAttribute="top" secondItem="I80-DV-ryp" secondAttribute="bottom" constant="8" symbolic="YES" id="hHJ-ub-yvr"/>
                             <constraint firstItem="gwG-P4-q2J" firstAttribute="top" secondItem="lBe-Ad-qls" secondAttribute="bottom" constant="27" id="jpi-su-q5H"/>
                             <constraint firstItem="lBe-Ad-qls" firstAttribute="top" secondItem="ZUZ-HU-v7J" secondAttribute="bottom" constant="8" symbolic="YES" id="l1x-L7-Ia4"/>
+                            <constraint firstItem="I80-DV-ryp" firstAttribute="centerX" secondItem="Jpo-FG-r03" secondAttribute="centerX" id="lnN-gs-ozK"/>
                             <constraint firstItem="lBe-Ad-qls" firstAttribute="centerX" secondItem="ZUZ-HU-v7J" secondAttribute="centerX" id="rrJ-5I-NS3"/>
                             <constraint firstItem="Hoy-uJ-O5M" firstAttribute="trailing" secondItem="ZUZ-HU-v7J" secondAttribute="trailing" id="wEb-9b-ugo"/>
                         </constraints>
@@ -232,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wRb-oH-DF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2637" y="-917"/>
+            <point key="canvasLocation" x="3449" y="-917"/>
         </scene>
         <!--Document Name-->
         <scene sceneID="aX2-2J-3rG">
@@ -246,7 +245,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Document Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEJ-cm-Ae0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Document Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEJ-cm-Ae0">
                                 <rect key="frame" x="169" y="88" width="263" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="263" id="g9r-UB-Iln"/>
@@ -436,7 +435,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="m2O-pD-VBz" kind="relationship" relationship="viewControllers" id="7uz-iI-VnP"/>
+                        <segue destination="OOh-WW-G9H" kind="relationship" relationship="viewControllers" id="7uz-iI-VnP"/>
                         <segue destination="4cI-xc-HXd" kind="relationship" relationship="viewControllers" id="v6b-Ra-QaS"/>
                         <segue destination="V5I-ef-Vmf" kind="relationship" relationship="viewControllers" id="2p8-Jp-bAe"/>
                         <segue destination="dh2-gM-kng" kind="relationship" relationship="viewControllers" id="jvA-HR-uAj"/>
@@ -446,7 +445,7 @@
             </objects>
             <point key="canvasLocation" x="495" y="259"/>
         </scene>
-        <!--Home-->
+        <!--View Controller-->
         <scene sceneID="iP1-fG-rbK">
             <objects>
                 <viewController id="m2O-pD-VBz" sceneMemberID="viewController">
@@ -459,11 +458,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="Home-50" id="0pZ-CJ-pps"/>
+                    <navigationItem key="navigationItem" id="v5s-GV-fyq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfK-sL-DEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="777" y="-925"/>
+            <point key="canvasLocation" x="1720" y="-937"/>
         </scene>
         <!--Documents-->
         <scene sceneID="0I9-J3-jQR">
@@ -569,6 +568,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lIA-Lq-gsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1277" y="489"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="iNt-Rr-fHv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OOh-WW-G9H" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="Home-50" id="0pZ-CJ-pps"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4pF-UR-KOJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="m2O-pD-VBz" kind="relationship" relationship="rootViewController" id="kRI-hf-v96"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxg-YK-wVb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908" y="-937"/>
         </scene>
     </scenes>
     <resources>
