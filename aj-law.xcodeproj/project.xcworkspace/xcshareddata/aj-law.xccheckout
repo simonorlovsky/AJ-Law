@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>07E10D36-3FF4-4EB4-A8CC-B9E48634CC0A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>aj-law</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7BC31E8DD79DB3C81949DB675C15828F90E650DA</key>
 		<string>github.com:simonorlovsky/AJ-Law.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>aj-law.xcodeproj/project.xcworkspace</string>
+	<string>aj-law.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7BC31E8DD79DB3C81949DB675C15828F90E650DA</key>
