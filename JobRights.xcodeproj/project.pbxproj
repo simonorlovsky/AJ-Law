@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94504D6E1B7BDB5500586423 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94504D6D1B7BDB5500586423 /* HomeViewController.swift */; };
 		94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9AAD71B61945400FACE9D /* AppDelegate.swift */; };
 		94E9AADD1B61945400FACE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E9AADB1B61945400FACE9D /* Main.storyboard */; };
 		94E9AADF1B61945400FACE9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E9AADE1B61945400FACE9D /* Images.xcassets */; };
@@ -46,13 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94E9AAD21B61945400FACE9D /* aj-law.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aj-law.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94504D6D1B7BDB5500586423 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		94E9AAD21B61945400FACE9D /* JobRights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobRights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E9AAD61B61945400FACE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E9AAD71B61945400FACE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E9AADC1B61945400FACE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94E9AADE1B61945400FACE9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94E9AAE11B61945400FACE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		94E9AAE71B61945400FACE9D /* aj-lawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aj-lawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E9AAE71B61945400FACE9D /* JobRightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobRightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E9AAEC1B61945400FACE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E9AAED1B61945400FACE9D /* aj_lawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aj_lawTests.swift; sourceTree = "<group>"; };
 		94E9AAF71B6194A000FACE9D /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -110,10 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94504D6C1B7BDB3E00586423 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94504D6D1B7BDB5500586423 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		94E9AAC91B61945400FACE9D = {
 			isa = PBXGroup;
 			children = (
-				94E9AAD41B61945400FACE9D /* aj-law */,
+				94E9AAD41B61945400FACE9D /* JobRights */,
 				94E9AB3A1B61D7F300FACE9D /* Frameworks */,
 				94E9AAEA1B61945400FACE9D /* aj-lawTests */,
 				94E9AAD31B61945400FACE9D /* Products */,
@@ -123,16 +133,17 @@
 		94E9AAD31B61945400FACE9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94E9AAD21B61945400FACE9D /* aj-law.app */,
-				94E9AAE71B61945400FACE9D /* aj-lawTests.xctest */,
+				94E9AAD21B61945400FACE9D /* JobRights.app */,
+				94E9AAE71B61945400FACE9D /* JobRightsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94E9AAD41B61945400FACE9D /* aj-law */ = {
+		94E9AAD41B61945400FACE9D /* JobRights */ = {
 			isa = PBXGroup;
 			children = (
-				94E9AB621B62EFDA00FACE9D /* Notes */,
+				94504D6C1B7BDB3E00586423 /* Home */,
+				94E9AB621B62EFDA00FACE9D /* RecordKeeper */,
 				94E9AB5F1B62EEAB00FACE9D /* User */,
 				94E9AB5C1B62D82100FACE9D /* Document Management */,
 				94E9AB5B1B62D80C00FACE9D /* Login/Register */,
@@ -142,6 +153,7 @@
 				94E9AAE01B61945400FACE9D /* LaunchScreen.xib */,
 				94E9AAD51B61945400FACE9D /* Supporting Files */,
 			);
+			name = JobRights;
 			path = "aj-law";
 			sourceTree = "<group>";
 		};
@@ -218,20 +230,20 @@
 			name = User;
 			sourceTree = "<group>";
 		};
-		94E9AB621B62EFDA00FACE9D /* Notes */ = {
+		94E9AB621B62EFDA00FACE9D /* RecordKeeper */ = {
 			isa = PBXGroup;
 			children = (
 				94E9AB631B62EFE900FACE9D /* NotesViewController.swift */,
 			);
-			name = Notes;
+			name = RecordKeeper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94E9AAD11B61945400FACE9D /* aj-law */ = {
+		94E9AAD11B61945400FACE9D /* JobRights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94E9AAF11B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-law" */;
+			buildConfigurationList = 94E9AAF11B61945400FACE9D /* Build configuration list for PBXNativeTarget "JobRights" */;
 			buildPhases = (
 				94E9AACE1B61945400FACE9D /* Sources */,
 				94E9AACF1B61945400FACE9D /* Frameworks */,
@@ -241,14 +253,14 @@
 			);
 			dependencies = (
 			);
-			name = "aj-law";
+			name = JobRights;
 			productName = "aj-law";
-			productReference = 94E9AAD21B61945400FACE9D /* aj-law.app */;
+			productReference = 94E9AAD21B61945400FACE9D /* JobRights.app */;
 			productType = "com.apple.product-type.application";
 		};
-		94E9AAE61B61945400FACE9D /* aj-lawTests */ = {
+		94E9AAE61B61945400FACE9D /* JobRightsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94E9AAF41B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-lawTests" */;
+			buildConfigurationList = 94E9AAF41B61945400FACE9D /* Build configuration list for PBXNativeTarget "JobRightsTests" */;
 			buildPhases = (
 				94E9AAE31B61945400FACE9D /* Sources */,
 				94E9AAE41B61945400FACE9D /* Frameworks */,
@@ -259,9 +271,9 @@
 			dependencies = (
 				94E9AAE91B61945400FACE9D /* PBXTargetDependency */,
 			);
-			name = "aj-lawTests";
+			name = JobRightsTests;
 			productName = "aj-lawTests";
-			productReference = 94E9AAE71B61945400FACE9D /* aj-lawTests.xctest */;
+			productReference = 94E9AAE71B61945400FACE9D /* JobRightsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +294,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94E9AACD1B61945400FACE9D /* Build configuration list for PBXProject "aj-law" */;
+			buildConfigurationList = 94E9AACD1B61945400FACE9D /* Build configuration list for PBXProject "JobRights" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,8 +307,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94E9AAD11B61945400FACE9D /* aj-law */,
-				94E9AAE61B61945400FACE9D /* aj-lawTests */,
+				94E9AAD11B61945400FACE9D /* JobRights */,
+				94E9AAE61B61945400FACE9D /* JobRightsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,6 +343,7 @@
 				94E9AB661B66C6DA00FACE9D /* NewDocumentViewController.swift in Sources */,
 				94E9AB5E1B62D84A00FACE9D /* DetailChecklistViewController.swift in Sources */,
 				94E9AB641B62EFE900FACE9D /* NotesViewController.swift in Sources */,
+				94504D6E1B7BDB5500586423 /* HomeViewController.swift in Sources */,
 				94E9AAD81B61945400FACE9D /* AppDelegate.swift in Sources */,
 				94E9AAF81B6194A000FACE9D /* ChecklistViewController.swift in Sources */,
 				94E9AB5A1B62B20700FACE9D /* RegisterViewController.swift in Sources */,
@@ -350,7 +363,7 @@
 /* Begin PBXTargetDependency section */
 		94E9AAE91B61945400FACE9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94E9AAD11B61945400FACE9D /* aj-law */;
+			target = 94E9AAD11B61945400FACE9D /* JobRights */;
 			targetProxy = 94E9AAE81B61945400FACE9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -471,7 +484,7 @@
 					"$(PROJECT_DIR)/aj-law.xcodeproj/Parse.framework",
 					"$(PROJECT_DIR)/aj-law.xcodeproj/Bolts.framework",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JobRights;
 			};
 			name = Debug;
 		};
@@ -490,7 +503,7 @@
 					"$(PROJECT_DIR)/aj-law.xcodeproj/Parse.framework",
 					"$(PROJECT_DIR)/aj-law.xcodeproj/Bolts.framework",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JobRights;
 			};
 			name = Release;
 		};
@@ -508,7 +521,7 @@
 				);
 				INFOPLIST_FILE = "aj-lawTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JobRightsTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aj-law.app/aj-law";
 			};
 			name = Debug;
@@ -523,7 +536,7 @@
 				);
 				INFOPLIST_FILE = "aj-lawTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JobRightsTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aj-law.app/aj-law";
 			};
 			name = Release;
@@ -531,7 +544,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94E9AACD1B61945400FACE9D /* Build configuration list for PBXProject "aj-law" */ = {
+		94E9AACD1B61945400FACE9D /* Build configuration list for PBXProject "JobRights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94E9AAEF1B61945400FACE9D /* Debug */,
@@ -540,21 +553,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94E9AAF11B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-law" */ = {
+		94E9AAF11B61945400FACE9D /* Build configuration list for PBXNativeTarget "JobRights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94E9AAF21B61945400FACE9D /* Debug */,
 				94E9AAF31B61945400FACE9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		94E9AAF41B61945400FACE9D /* Build configuration list for PBXNativeTarget "aj-lawTests" */ = {
+		94E9AAF41B61945400FACE9D /* Build configuration list for PBXNativeTarget "JobRightsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94E9AAF51B61945400FACE9D /* Debug */,
 				94E9AAF61B61945400FACE9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

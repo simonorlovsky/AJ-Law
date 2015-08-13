@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:aj-law.xcodeproj">
+      location = "self:/Users/simonorlovsky/Code/iOS/aj-law/JobRights.xcodeproj">
    </FileRef>
 </Workspace>
